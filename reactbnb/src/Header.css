@@ -1,0 +1,47 @@
+.header{
+    /* Enables everything to be on a single row */
+    display:flex;
+    /* Pushes each div away from each other */
+    justify-content: space-between;
+    align-items: center;
+    /* Position allows the header to stay in place when scrolling. Position keeps it at the very top */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* Stays on top of everything else aka overlap */
+    z-index: 100;
+    width: 100%;
+
+}
+
+.header__icon {
+    /* Keeps image the same and doesnt stretch */
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header__center {
+    display: flex;
+    /* Keeps the search icon aligned with the search input */
+    align-items: center;
+    /* Takes as much space as it can */
+    flex: 1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    /* Creates the illusion of a round input area */
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.header__center > input{
+    /* Removes the border around the input box */
+    border: none;
+
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
