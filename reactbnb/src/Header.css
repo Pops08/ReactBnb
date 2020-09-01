@@ -38,10 +38,17 @@
 .header__center > input{
     /* Removes the border around the input box */
     border: none;
+    /* Stretches out the input field */
+    padding: 10px;
+    /* Removes the blue outtline in the input */
+    outline-width: 0;
 
 }
 
 .header__right{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
 }
