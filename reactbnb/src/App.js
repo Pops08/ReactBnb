@@ -12,8 +12,6 @@ function App() {
     {/* Home */}
     <Home />
 
-      {/* Header */}
-
       {/* Banner */}
 
       {/* Cards */}

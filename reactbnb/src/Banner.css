@@ -1,0 +1,37 @@
+.banner{
+    /* GIve the banner 50% of the screen height */
+    height: 50vh;
+    position: relative;
+    background: url("https://previews.123rf.com/images/bialasiewicz/bialasiewicz1712/bialasiewicz171200739/92269185-wooden-bench-and-king-size-bed-in-spacious-white-bedroom-interior-with-plants-drawing-and-hammock.jpg") center;
+    background-repeat: no-repeat;
+}
+
+.banner__info{
+    background-color: black;
+    color: white;
+    /* 25% of the screen */
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__info > button{
+    background-color: #ff7779;
+    color: white;
+    /* Removes the upper case that material UI does */
+    text-transform: inherit;
+    /* Pushes button below the text */
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__info > h5{
+    margin-top: 10px;
+}
