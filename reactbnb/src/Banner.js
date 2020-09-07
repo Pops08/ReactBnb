@@ -14,7 +14,7 @@ function Banner() {
                 {showSearch && <Search />}
                 {/* Onclick function that calls the setState to inverse the setSearch  */}
                 <Button onClick={() => setShowSearch(!showSearch)} variant='outlined' className='banner__searchButton'>
-                    Search Dates
+                    {showSearch ? "Hide" : "Search Dates"}
                 </Button>
             </div>
             <div className='banner__info'>

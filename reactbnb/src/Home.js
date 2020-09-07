@@ -13,4 +13,3 @@ function Home() {
 
 export default Home
 
-// Stopped at 42:00
